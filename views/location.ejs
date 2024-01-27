@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: red;
+    }
+</style>
+<body>
+    <%-include('header') %>
+    <br><br>
+    <h1>Welcome to my Location page</h1>
+    <p>My Name is lokesh and I am living in new Delhi and this is my first start of my portfolio's location page</p>
+    <h2>Welcome <%= info.course %>!  </h2> 
+    <h3>Your proficiency includes </h3>
+        <ul>
+            <% info.skills.forEach(skill => { %>
+                <li><%= skill %></li>
+            <% }); %>
+
+        </ul>  
+</body>
+</html>
