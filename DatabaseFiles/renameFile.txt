@@ -1,1 +1,1 @@
-Information inside the file 
+Information inside the file  This is the data that have been appended to the file 
