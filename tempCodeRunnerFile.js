@@ -1,2 +1,2 @@
 
-// fs.unlinkSync()
+result2 = result1++
